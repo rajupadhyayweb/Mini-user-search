@@ -58,24 +58,7 @@ const users = [
 
 ]
 
-// users.map(function(obj){
 
-//     let {profileUrl,name,email} = obj
-    
-//     let divElem = document.createElement('div');
-//     divElem.className = 'user';
-//     divElem.innerHTML = `
-//     <div class="user">
-//                     <img src=${profileUrl} alt="profile">
-//                     <div class="details">
-//                         <h4>${name}</h4>
-//                         <p>${email}</p>
-//                     </div>
-//                 </div>
-//     `
-
-//     userContainer.append(divElem);
-// })
 
 function renderUsers(arr){
 
